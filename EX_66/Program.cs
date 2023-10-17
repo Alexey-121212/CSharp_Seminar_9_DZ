@@ -14,6 +14,7 @@ if (m < 1 | n < 1)
     Console.WriteLine("Ошибочный ввод, введенные числа не натуральные");
     return;
 }
+
 if (m > n)
 {
     Console.WriteLine(CalcSumBetweenNums(n, m));

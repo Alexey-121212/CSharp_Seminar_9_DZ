@@ -8,7 +8,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 if (n < 1)
 {
-    Console.WriteLine("Ошибка ввода, число меньше 1");
+    Console.WriteLine("Ошибка ввода, число не натуральное");
     return;
 }
 
